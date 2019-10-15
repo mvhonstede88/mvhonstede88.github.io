@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Inladen speciale pagina's -->
+    <!--Zorgt ervoor dat je speciale tekens kan gebruiken -->
+    <meta charset="UTF-8">
+    <!--Zorgt ervoor je kan scalen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Speciale Icons sectie https://fontawesome.com/icons?d=gallery -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+
+
+    <!--Inladen CSS pagina -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Opgeven titel pagina -->
+    <title>CV Merijn van Honstede</title>
+</head>
+<body>
+    <!--In de header staat de kop van de pagina. De header wordt gedefinieerd als de class flex container voor CSS stijl -->
+    <header class="flex-container">
+        <!--Het plaatje met de profiel foto. De alt is bedoeld als het plaatje niet gevonden kan worden -->
+        <img class="profileimg" src="./img/linkedinfoto.png" alt="Picture Error">
+
+        <!--Deze div is het onderdeel met de tekst onderdelen. Dit krijg de class content-header voor CSS stijl  -->
+        <div class="content-header">
+            <!--h1 bevat de naam van de auteur -->
+            <h1>Merijn van Honstede</h1>
+            <!--h2 bevat de functie titel van de auteur -->
+            <h2>Informatie/ Business Analist</h2>
+            <!--p bevat een leuze die hoort bij de auteur -->
+            <p>
+                "You miss 100% of the shots you don't take.” <br/>Wayne Gretzky
+            </p>
+            <!--p bevat het telefoonnummer en email adres van de auteur in bold font <b> -->
+            <p><b>Telephone: 06-17028600  <br />Email: merijnvanhonstede@apsupport.nl</b></p>
+            <!--Hier staan de adressen <a> naar andere locaties voor de auteur waaronder bijvoorbeeld de linkedin pagina
+                De i is dan de speciale icoon die opgehaald wordt vanuit https://fontawesome.com/icons?d=gallery -->               
+                
+                <a href="https://www.linkedin.com/in/merijn-van-honstede/"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+    </header>
+    <!-- Een sectie definieer je hoofstukken, headers en footers-->
+    <section>
+        <!-- Een div tag wordt gebruikt om elementen de groeperen in dit geval het ervaring met de uitleg hiervan-->
+        <div class="box">
+            <h2>Ervaring</h2>
+            <p>
+                Ik ben een business informatie analist met brede ervaring op het gebied van testen en requirements schrijven. Daarnaast ben ik Excel-docent bij AP Support 
+                zodat AP-ers sneller opvallen op de werkvloer. In mijn vrije tijd ben ik bezig met een cursus Spaans en sport ik graag.
+                              
+            </p>
+        </div>
+
+        <!-- Deze div class is bedoeld om voor de onderdelen voor baanomschrijving met class job-->
+        <div class="job">
+            <img src="./img/briefcase.svg">
+            <div>
+                <h3><b>MN Verzekeringen</b></h3>
+                <p class="IDE"><b>Augustus 2018 - nu </b></p>
+                <p>
+                        Kerntaken:
+                    <p>
+                        - <em>Samenwerken in internationaal Scrum team </em>
+                    </p>
+                    <p> 
+                        - <em>Functioneel testen en begeleiden van acceptatietesten</em>
+                    </p>    
+                    <p>
+                        - <em> Demo's en presenteren voor stakeholders </em>
+                    </p> 
+                    <p> 
+                        - <em>Ontwerpen, definiëren en vastleggen van functionele eisen</em>
+                    </p>                                               
+                </p>
+            </div>
+        </div>
+        <div class="job">
+            <img src="./img/briefcase.svg">
+            <div>
+                <h3><b>Goudse Verzekeringen</b></h3>
+                <p class="IDE"><b>Mei 2017 - juli 2018 </b></p>
+                <p>
+                    Kerntaken:
+                    <p>
+                        - <em>Testen van applicatie naverrekenen op gebruikersniveau</em>
+                    </p>
+                    <p>
+                        - <em>Opstellen en uitvoeren van testcases </em>   
+                    </p> 
+                    <p>
+                        - <em>Signaleren van knelpunten in de applicatie en schakelen met DevOps voor het optimaliseren van het proces</em>
+                    </p>
+                   <p>
+                        - <em>Verantwoordelijk voor het bewaken van de data-kwaliteit door het analyseren van bulkdata</em>
+                   </p>
+                   <p> 
+                        - <em>Analyseren en herzien van naverrekeningsprocess voor efficiëntere verwerking hiervan</em>
+                   </p>
+                    
+                </p>
+            </div>
+        </div>
+        </section>
+        <!-- Footer bevat vaak informatie van de auteur van de sectie-->
+        <footer class="footertag">
+                <!-- Deze div is voor contact informatie van de maker van het cv-->
+                <div>
+
+                    <h3>Contact</h3>
+                    <p>Email: merijnvanhonstede@apsupport.nl</p>
+                    <p>Telefoon: 06-17028600</p>
+        
+                </div>
+                <div class="logos">
+                    <a href="https://www.facebook.com/APSupport.naarden/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/APSupport"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/ap-support/"><i class="fab fa-linkedin"></i></a>
+                </div>
+        
+            </footer>                    
+    </body>
+
+</html>
